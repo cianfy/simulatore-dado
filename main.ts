@@ -1,9 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 10; index++) {
-        basic.showIcon(IconNames.Heart)
-        basic.showIcon(IconNames.SmallHeart)
-    }
-})
 function RegistraNumero (numero_uscito: number) {
     if (numero_uscito == 1) {
         uno += 1
